@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Azure IoT Edge Devs"]
 license = "MIT"
 edition = "2018"
+repository = "https://github.com/Kirbk/MQTT_Test"
+
+[build]
+target = "arm-unknown-linux-gnueabi"
 
 [dependencies]
 bytes = "1"
